@@ -1,0 +1,1147 @@
+@font-face {
+    font-family: helvetica-neue;
+    src: url(../fonts/helvetica-neue/Helvetica\ Neue\ Medium\ Extended.ttf);
+}
+
+:root{
+    --main-font: helvetica-neue;
+    --main-black: #434343;
+    --main-white: #FFFFFF;
+    --main-red: #EE4967;
+}
+.home-page-header-style{
+    background-position: center;
+}
+.container{
+     max-width: 1440px;
+     width: 90%;
+     margin: 0 auto;
+}
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 69px;
+}
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    width: 100%;
+}
+.header-navigation ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 56px;
+}
+.header-navigation ul a{
+    font: normal normal normal
+    14px/16px var(--main-font);
+    color: var(--main-black);
+}
+.header-navigation .header-icons{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-bottom-part{
+    margin-top: 78px;
+    margin-bottom: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.home-page-header-style .container
+.header-bottom-part div
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    margin-bottom: 82px;
+}
+.home-page-header-style .container
+.header-bottom-part div a
+{
+    width: fit-content;
+}
+.header-bottom-part div button{
+    border: 2px solid var(--main-white);
+    color: var(--main-white);
+    border-radius: 6px;
+    padding: 13px 32px 12px 44px;
+    background-color: var(--main-red);
+    display: flex;
+    align-items: center;
+    width: 306px;
+    max-height: 44px;
+}
+.home-page-header-style .container
+.header-bottom-part div button
+img{
+    margin-right: 20px;
+}
+.header-bottom-part .header-bottom-title{
+    font-family: var(--main-font), sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--main-black);
+}
+.online-chat-img{
+    align-self: flex-end;
+}
+/* For burger menu */
+.activation-burger-menu{
+    display: block !important;
+}
+.burger-menu-container
+{
+    position: relative;
+    display: none;
+}
+.header-navigation 
+.burger-menu-container
+.burger-menu
+{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+.header-navigation
+.burger-menu-container
+.burger-menu
+ div
+{
+    width: 30px;
+    height: 0;
+    background-color: var(--main-black);
+    border: 2px solid var(--main-black);
+}
+/* For activated burger */
+.burger-menu-container
+.activated-burger
+{
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    display:  none;
+}
+.burger-menu-container
+.activated-burger
+.activated-burger-navigation
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: none;
+}
+.burger-menu-container
+.activated-burger
+.activated-burger-navigation
+ul a li
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 18px;
+    line-height: 15px;
+    padding: 20px 30px 20px 15px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: var(--main-black);
+    color: var(--main-white);
+    opacity: 0.9;
+}
+.burger-menu-container
+.activated-burger
+.activated-burger-navigation
+ul a:nth-child(1) li
+{
+    border-radius: 10px 50% 10px 10px;
+}
+/* For the second section */
+.sections-container{
+    margin-top: 35px;
+}
+.section-title
+{
+    font-style: normal;
+    font-family: var(--main-font), sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 22px 0;
+    background: rgba(238, 73, 103, 0.14);
+}
+.section-title h2
+{
+    opacity: 1;
+}
+.section-title 
+span
+{
+    color: var(--main-red);
+    opacity: 1;
+}
+.sections-container 
+.sections-container-title
+{
+    font-family: var(--main-font), sans-serif;
+    font-style: normal;
+    text-transform: lowercase;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--main-black);
+    text-align: center;
+    margin-bottom: 83px;
+}
+/* section slide card */
+.slider-container
+{
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+.slider-container
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 42px;
+    max-width: 312px;
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000029;
+
+}
+/* card icon */
+.card .card-icon-container
+{
+    background-color: var(--main-white);
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow:  0px 3px 6px #00000029;
+    transform: translateY(-50%);
+
+}
+.card
+.card-icon-container
+.card-icon
+{
+    background-color: var(--main-red);
+    border-radius: 50%;
+    padding: 15px 10px 6px 11px;
+    
+}
+.slider-container 
+.card 
+h3,
+.third-section-card h3
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--main-black);
+    text-transform: uppercase;
+}
+.slider-container
+.card
+a
+{
+    font-family: var(--main-font);
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--main-white);
+    text-transform: lowercase;
+    background-color: var(--main-red);
+    padding: 7px 15px 8px 20px;
+    border-radius: 4px;
+    margin-bottom: 31px;
+}
+/* Third section cards */
+.third-section-container
+{
+    margin-top: 55px;
+}
+.third-section-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.third-section-card
+div
+{
+    background-color: var(--main-red);
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 6px;
+    padding: 20px;
+}
+/* Fourth section */
+.fourth-section-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    padding: 21px 17px 25px 25px;
+    background-color: var(--main-white);
+    box-shadow: 1px 1px 6px #00000029;
+    border-radius: 6px;
+    max-width: 392px;
+}
+.profile-description
+{
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.fourth-section-card p
+{
+    text-align: center;
+    font-family: var(--main-font), sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--main-black);
+}
+
+.profile-description div h4
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    color: var(--main-black);
+    text-align: left;
+    margin-bottom: 11px;
+}
+.profile-description
+.profile-rating
+{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* For the footer of the web */
+footer
+{
+    background-color: var(--main-red);
+    padding: 77px 0 19px 0;
+}
+footer
+.footer-container
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer
+.footer-left-part,
+.footer-left-part 
+.footer-left-top
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer
+.footer-left-part
+{
+    gap: 69px;
+}
+.footer-left-part 
+.footer-left-top
+{
+    gap: 26px;
+}
+.footer-left-part 
+.footer-left-top
+h3
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--main-white);
+    text-align: left;
+}
+/* For footer input */
+.footer-left-part 
+.footer-left-top
+form
+{
+    position: relative;
+}
+.footer-left-top
+form
+input
+{
+    background: var(--main-white);
+    border-radius: 6px;
+    border: none;
+    padding: 10px 12px 10px 10px;
+}
+.footer-left-top
+form
+input:focus-visible
+{
+    outline: none;
+
+}
+.footer-left-top
+form
+button
+{
+    position: absolute;
+    top: 55%;
+    right: 12px;
+    transform: translateY(-50%);
+    background-color: initial;
+    border: none;
+}
+/* Footer social media icons */
+.footer-left-top
+.footer-social-media-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 127px;
+    width: 100%;
+}
+/* Footer, web logo */
+.footer-left-bottom
+a img
+{
+    max-width: 156px;
+    width: 100%;
+    max-height: 54px;
+}
+/* Footer middle part */
+footer
+.footer-middle-part
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 91px;
+}
+.footer-middle-part
+.footer-middle-top
+.footer-middle-navigation
+{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.footer-middle-navigation
+ul,
+.footer-right-navigation
+ul div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.footer-middle-navigation
+ul li a,
+.footer-right-navigation
+ul div li a
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-white);
+}
+.footer-right-navigation
+ul div li address
+{
+    font-weight: normal;
+}
+/* Footer middle-bottom part */
+.footer-middle-part
+.footer-middle-bottom
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.footer-middle-bottom
+.footer-apps-container
+{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.footer-middle-bottom
+span
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-white);
+}
+/* Footer right part */
+.footer-right-part
+.footer-right-navigation
+ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+/* For health insurance page */
+.health-insurance-down-part
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 32px;
+}
+.health-insurance-down-part
+.health-insurance-down-left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.health-insurance-down-left h1,
+.health-insurance-down-left p
+{
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    color: #000000;
+}
+.health-insurance-down-left h1
+{
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 359px;
+}
+.health-insurance-down-left p
+{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 83px;
+    max-width: 380px;
+}
+.health-insurance-down-left
+form
+{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.health-insurance-down-left
+form  button
+{
+    background-color: var(--main-red);
+    border: 1px solid var(--main-red);
+    border-radius: 6px;
+    padding: 11px 16px 10px 18px;
+    color: var(--main-white);
+}
+/* Health insurance header-right */
+.health-insurance-down-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    background-color: #F4A2B1;
+    padding: 27px 0 5px 28px;
+    margin-bottom: 87px;
+}
+
+.health-insurance-down-right
+.health-insurance-top-slider-dots
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.health-insurance-top-slider-dots
+li:nth-child(1)::before
+{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid var(--main-red);
+    background-color: var(--main-red);
+    cursor: pointer;
+}
+.health-insurance-top-slider-dots
+li:not(.health-insurance-top-slider-dots li:nth-child(1))::before
+{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid #EE4967;  
+    background-color: var(--main-white);
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Health Insurance- First section - cards*/
+.health-insurance-section-1-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 49px 0;
+}
+.health-insurance-section-1-container
+.insurance-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 392px;
+    width: 100%;
+    gap: 30px;
+    padding: 28px 33px 40px 34px;
+    background-color: var(--main-white);
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 6px;
+}
+.insurance-card
+h2
+.insurance-card
+p
+{
+    font-family: var(--main-font), sans-serif;
+    text-align: center;
+
+}
+.insurance-card
+h2
+{
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--main-red);
+    text-align: center;
+}
+.insurance-card
+p
+{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--main-black);
+}
+.insurance-card
+div
+{
+    max-width: 325px;
+    width: 100%;
+    height: 232px;
+    background-color: var(--main-black);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.insurance-card
+a,
+.add-recipt
+a
+{
+    font-family: var(--main-font), sans-serif;
+    font-weight: medium;
+    font-size: 15px;
+    line-height: 17px;
+    color: var(--main-white);
+    background-color: var(--main-red);
+    padding: 9px 23px 11px 26px;
+    border-radius: 6px;
+}
+/* Health Insurance- Section 2 */
+.recipt-main-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 131px;
+
+
+}
+.recipt-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* max-width: 1440px; */
+    width: 100%;
+    margin-bottom: 68px;
+}
+.insurance-card-sec-2
+h3
+{
+    font-family: var(--main-font), sans-serif;
+    text-align: center;
+    color: var(--main-white);
+    font-size: 16px;
+    line-height: 20px;
+}
+.insurance-card-sec-2
+.recipt-div,
+.insurance-card-sec-2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.insurance-card-sec-2
+{
+    gap: 15px;
+    background-color: var(--main-red);
+    border-radius: 6px;
+    padding: 12px 30px 22px 30px;
+    max-width: 370px;
+    width: 100%;
+}
+.insurance-card-sec-2
+.recipt-div
+{
+    gap: 20px;
+    padding: 18px 23px;
+    background-color: var(--main-white);
+    border-radius: 6px;
+}
+.insurance-card-sec-2
+.recipt-div
+.recipt-line,
+.recipt-white-div
+.recipt-line-white
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recipt-line
+{
+    width: 262px;
+}
+.recipt-white-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.recipt-white-div
+.recipt-line-white
+{
+    width: 310px;
+}
+.recipt-white-div
+.recipt-line-white
+h4,
+.recipt-line-white
+span,
+.recipt-line
+h4,
+.recipt-line
+span
+{
+    font-family: var(--main-font), sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+.recipt-line-white
+h4,
+.recipt-line-white
+span
+{
+    color: var(--main-white);
+}
+.add-recipt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    align-items: center;
+    margin-bottom: 68px;
+
+}
+.add-recipt h2
+{
+    font-style: normal;
+    font-family: var(--main-font), sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+/* For contact page */
+.contact-page-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 92px;
+    margin-bottom: 111px;
+}
+.contact-page-title
+.contact-page-title-prg
+{
+    font-family: var(--main-font), sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.contact-page-title
+{ 
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.contact-page-title-prg
+{
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--main-black);
+    margin-top: 22px;
+    margin-bottom: 81px;
+}
+/* Contact window */
+.contact-main-div
+{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    max-width: 1225px;
+    width: 100%;
+    padding: 13px 45px 13px 13px;
+    background-color: var(--main-white);
+    box-shadow: 0px 3px 6px #00000029;;
+    border-radius: 6px;
+}
+.contact-div-left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--main-red);
+    border-radius: 6px;
+    padding: 81px 19px 89px 40px;
+
+}
+/* Contact window left */
+.contact-div-left
+h2
+{
+    font-family: var(--main-font),sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--main-white);
+    text-align: left;
+}
+.contact-div-left
+p
+{
+    font-family: var(--main-font), sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 376px;
+    text-align: left;
+    margin-top: 38px;
+    margin-bottom: 84px;
+    color: var(--main-white);
+}
+.contact-links ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 62px;
+}
+.contact-links
+ul a 
+{
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color: var(--main-white);
+    text-align: left;
+}
+.contact-links
+ul a li
+{
+    display: flex;
+}
+.contact-links
+ul a li:before
+{
+    margin-right: 33px;
+}
+.contact-links ul
+a:nth-child(1) li:before
+{
+    content: url(../images/contact-page-images/small-icons/call-icon.png);
+}
+.contact-links ul
+a:nth-child(2) li:before
+{
+    content: url(../images/contact-page-images/small-icons/mail-icon.png);
+
+}
+.contact-links ul
+a:nth-child(3) li:before
+{
+    content: url(../images/contact-page-images/small-icons/location-icon.png);
+}
+/* Contact window right */
+.contact-form
+{
+    display: grid;
+    grid-template-columns: minmax(100px, 318px) minmax(100px, 318px);
+    grid-gap: 62px;
+}
+.contact-form
+div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 318px;
+    width: 100%;
+}
+.contact-form
+textarea
+{
+    grid-column: 1/3;
+}
+.contact-form
+button
+{
+    grid-column: 2/3;
+}
+.contact-form
+div label
+{
+    font-family: var(--main-font), sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.8;
+    color: var(--main-black);
+}
+
+.contact-form
+div input
+{
+    padding: 15px 0 5px 5px;
+    max-width: 318px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #F4A2B1;
+}
+.contact-form
+div input:focus-visible,
+.contact-form textarea:focus-visible
+{
+    outline: none;
+}
+.contact-form textarea
+{
+    border: 1px solid #F4A2B1;
+    border-radius: 6px;
+    padding: 14px 0 0 18px;
+}
+.contact-form button
+{
+    background-color: var(--main-red);
+    border: 1px solid var(--main-red);
+    border-radius: 6px;
+    padding: 10px 55px;
+    font-family: var(--main-font), sans-serif;
+    font-weight: medium;
+    font-size: 15px;
+    line-height: 17px;
+    color: var(--main-white);
+    max-width: 179px;
+}
+
+@media (max-width: 1024px)
+{
+    .header-navigation
+    .burger-menu-container
+    
+    {
+    display: flex;
+    }
+    .header-navigation ul,
+    .header-navigation .header-icons
+    {
+        display: none;
+    }
+    /* for slider container */
+    .slider-container
+    {
+        flex-direction: column;
+        gap: 70px;
+    }
+    .slider-right-arrow,
+    .slider-left-arrow
+    {
+      transform: rotate(90deg);
+    }
+    /* Footer */
+    .footer-container
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    footer
+    .footer-left-part,
+    .footer-middle-part,
+    .footer-middle-bottom,
+    .footer-left-part 
+    .footer-left-top,
+    .footer-right-navigation
+    {
+        width: fit-content;
+        align-items: center;
+
+    }
+    footer
+    .footer-left-part
+    {
+        gap: 30px;
+    }
+    .footer-middle-part
+    .footer-middle-top
+    .footer-middle-navigation
+    ul
+    {
+        padding: 0;
+    }
+    .footer-middle-part
+    .footer-middle-top
+    .footer-middle-navigation
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px 5px;
+        align-items: center;
+    }
+    .footer-middle-bottom
+    .footer-apps-container
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .recipt-container
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .health-insurance-section-1-container
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .health-insurance-down-part
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .health-insurance-down-left
+    form
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .health-insurance-down-right
+    .image-div,
+    .image-div
+    img
+    {
+        max-width:500px;
+    }
+
+}
+@media (max-width: 800px){
+    .contact-main-div
+    {
+        flex-direction: column;
+    }
+    .contact-form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contact-form div
+    input
+    {
+        max-width: 200px;
+        width: 100%;
+        
+    }
+    
+}
+@media (max-width: 700px)
+{
+    .home-page-header-style .container
+    .header-bottom-part div
+    {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .header-bottom-part .header-bottom-title{
+        font-size: 28px;
+        line-height: 35px;
+        margin: 2em;
+    }
+    .header-bottom-part div button{
+        width: 250px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .header-logo-img{
+        width: 120px;
+    }
+    .health-insurance-down-part
+    {
+        align-items: center;
+    }
+    .health-insurance-down-right
+    .image-div,
+    .image-div
+    img
+    {
+        max-width: 250px;
+    }
+    .health-insurance-section-1-container
+    {
+        gap: 15px;
+    }
+}
